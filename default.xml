@@ -27,7 +27,7 @@
   <project remote="phoenixapp" revision="master" name="phoenixapp" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/FrontendWkSpace/PhoenixApp"/>
   
   <project remote="firebirdos" revision="master" name="firebird_os" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/ACM">
-  <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAio" src="/library/fb_aio"/>
+  <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAio/" src="/library/fb_aio/*"/>
   </project>
   <project remote="firebirdaio" revision="master" name="firebirdaio" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAio"/>
 </manifest>
