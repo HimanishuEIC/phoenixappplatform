@@ -11,7 +11,6 @@
   <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="flexerahal"/>
   <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="utility"/>
   <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="phoenixapp"/>
-  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="firebirdaio"/>
   <remote fetch="ssh://git@bitbucket.honeywell.com:7999/glss/" name="fb_aio"/>
  
  
@@ -25,6 +24,6 @@
   <project remote="flexerahal" revision="master" name="flexerahal" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FlexeraHal"/>
   <project remote="utility" revision="master" name="phoenixapp" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/Uitility"/>
   <project remote="phoenixapp" revision="master" name="phoenixapp" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/FrontendWkSpace/PhoenixApp"/>
+  <project remote="firebirdaio" revision="master" name="firebirdaio" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAio"/>
   <project remote="fb_aio" revision="master" name="fb_aio" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAio"/>
-  <project remote="firebirdaio" revision="master" name="firebirdaio" sync-s="true" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAio"/>
 </manifest>
