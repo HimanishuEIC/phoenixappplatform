@@ -29,5 +29,7 @@
   <project remote="aiolibeclipseproject" revision="master" name="aiolibeclipseproject" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/aioLibPro">
     <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAio/.cproject" src=".cproject"/>
 	<copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAio/.project" src=".project"/>
+    <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAio/include/fb_aio_config.h" src="fb_aio_config.h"/>
+    <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAio/include/fb_log.h" src="fb_log.h"/>
   </project>
 </manifest>
