@@ -22,7 +22,7 @@
   <project remote="common" revision="master" name="common" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/Common"/>
   <project remote="passwordengine" revision="master" name="passwordengine" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/PasswordEngine"/>
   <project remote="flexera" revision="master" name="flexera" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/Flexera"/>
-  <project remote="flexerahal" revision="master" name="flexerahal" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FlexeraHal"/>
+  <project remote="flexerahal" revision="master" name="flexerahal" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FlexeraHAL"/>
   <project remote="utility" revision="master" name="utility" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/Utility"/>
   <project remote="phoenixapp" revision="master" name="phoenixapp" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/FrontendWkSpace/PhoenixApp"/>
   <project remote="fb_aio" revision="master" name="fb_aio" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAIO"/>
