@@ -25,11 +25,11 @@
   <project remote="flexerahal" revision="master" name="flexerahal" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FlexeraHal"/>
   <project remote="utility" revision="master" name="phoenixapp" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/Uitility"/>
   <project remote="phoenixapp" revision="master" name="phoenixapp" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/FrontendWkSpace/PhoenixApp"/>
-  <project remote="fb_aio" revision="master" name="fb_aio" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAio"/>
+  <project remote="fb_aio" revision="master" name="fb_aio" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAIO"/>
   <project remote="aiolibeclipseproject" revision="master" name="aiolibeclipseproject" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/aioLibPro">
-    <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAio/.cproject" src=".cproject"/>
-	<copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAio/.project" src=".project"/>
-    <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAio/include/fb_aio_config.h" src="fb_aio_config.h"/>
-    <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAio/include/fb_log.h" src="fb_log.h"/>
+    <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAIO/.cproject" src=".cproject"/>
+	<copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAIO/.project" src=".project"/>
+    <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAIO/include/fb_aio_config.h" src="fb_aio_config.h"/>
+    <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAIO/include/fb_log.h" src="fb_log.h"/>
   </project>
 </manifest>
