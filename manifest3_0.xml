@@ -12,6 +12,7 @@
   <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="utility"/>
   <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="phoenixapp"/>
   <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="aiolibeclipseproject"/>
+   <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="memorytestfirmware"/>
   <remote fetch="ssh://git@bitbucket.honeywell.com:7999/glss/" name="fb_aio"/>
  
  
@@ -26,6 +27,7 @@
   <project remote="flexera" revision="3_0" name="flexera" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/Flexera"/>
   <project remote="flexerahal" revision="3_0" name="flexerahal" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FlexeraHAL"/>
   <project remote="utility" revision="3_0" name="utility" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/Utility"/>
+  <project remote="memorytestfirmware" revision="master" name="memorytestfirmware" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/MemoryTestFirmware"/>
   <project remote="phoenixapp" revision="3_0" name="phoenixapp" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/FrontendWkSpace/PhoenixApp">
        <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/FrontendWkSpace/sonar-project.properties" src="sonar-project.properties"/>
   </project>
