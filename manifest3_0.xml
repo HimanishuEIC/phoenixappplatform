@@ -17,7 +17,7 @@
  
  
   
-
+  <project remote="fb_aio" revision="3_0" name="fb_aio" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAIO"/>
   <project remote="backend" revision="3_0" name="backend" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/Backend">
        <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/sonar-project.properties" src="sonar-project.properties"/>
   </project>
@@ -31,7 +31,6 @@
   <project remote="phoenixapp" revision="3_0" name="phoenixapp" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/FrontendWkSpace/PhoenixApp">
        <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/FrontendWkSpace/sonar-project.properties" src="sonar-project.properties"/>
   </project>
-  <project remote="fb_aio" revision="3_0" name="fb_aio" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAIO"/>
   <project remote="aiolibeclipseproject" revision="3_0" name="aiolibeclipseproject" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/aioLibPro">
     <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAIO/.cproject" src=".cproject"/>
 	<copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAIO/.project" src=".project"/>
