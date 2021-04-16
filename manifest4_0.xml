@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="4_0"/>
+
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="backend"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="logicengine"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="common"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="passwordengine"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="flexera"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="flexerahal"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="utility"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="phoenixapp"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="aiolibeclipseproject"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/glss/" name="fb_aio"/>
+ 
+ 
+  
+
+  <project remote="backend" revision="4_0" name="backend" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/Backend"/>
+  <project remote="logicengine" revision="4_0" name="logicengine" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/LogicEngine"/>
+  <project remote="common" revision="4_0" name="common" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/Common"/>
+  <project remote="passwordengine" revision="4_0" name="passwordengine" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/PasswordEngine"/>
+  <project remote="flexera" revision="4_0" name="flexera" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/Flexera"/>
+  <project remote="flexerahal" revision="4_0" name="flexerahal" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FlexeraHAL"/>
+  <project remote="utility" revision="4_0" name="utility" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/Utility"/>
+  <project remote="phoenixapp" revision="4_0" name="phoenixapp" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/FrontendWkSpace/PhoenixApp"/>
+  <project remote="fb_aio" revision="4_0" name="fb_aio" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAIO"/>
+  <project remote="aiolibeclipseproject" revision="4_0" name="aiolibeclipseproject" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/aioLibPro">
+    <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAIO/.cproject" src=".cproject"/>
+	<copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAIO/.project" src=".project"/>
+    <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAIO/include/fb_aio_config.h" src="fb_aio_config.h"/>
+    <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAIO/include/fb_log.h" src="fb_log.h"/>
+  </project>
+</manifest>
