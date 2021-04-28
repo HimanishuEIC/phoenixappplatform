@@ -27,7 +27,7 @@
   <project remote="flexera" revision="4_0" name="flexera" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/Flexera"/>
   <project remote="flexerahal" revision="4_0" name="flexerahal" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FlexeraHAL"/>
   <project remote="utility" revision="4_0" name="utility" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/Utility"/>
-  <project remote="memorytestfirmware" revision="4_0" name="memorytestfirmware" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/MemoryTestFirmware"/>
+  <project remote="memorytestfirmware" revision="master" name="memorytestfirmware" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/MemoryTestFirmware"/>
   <project remote="phoenixapp" revision="4_0" name="phoenixapp" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/FrontendWkSpace/PhoenixApp">
      <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/FrontendWkSpace/sonar-project.properties" src="sonar-project.properties"/>
   </project>   
