@@ -18,7 +18,7 @@
  
   
   <project remote="fb_aio" revision="4_0" name="fb_aio" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FirebirdAIO"/>
-  <project remote="backend" revision="4_0" name="backend" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/Backend"/>
+  <project remote="backend" revision="4_0" name="backend" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/Backend">
       <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/sonar-project.properties" src="sonar-project.properties"/>
   </project>
   <project remote="logicengine" revision="4_0" name="logicengine" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/LogicEngine"/>
@@ -28,7 +28,7 @@
   <project remote="flexerahal" revision="4_0" name="flexerahal" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/FlexeraHAL"/>
   <project remote="utility" revision="4_0" name="utility" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/Utility"/>
   <project remote="memorytestfirmware" revision="4_0" name="memorytestfirmware" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/MemoryTestFirmware"/>
-  <project remote="phoenixapp" revision="4_0" name="phoenixapp" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/FrontendWkSpace/PhoenixApp"/>
+  <project remote="phoenixapp" revision="4_0" name="phoenixapp" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/FrontendWkSpace/PhoenixApp">
      <copyfile dest="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/FrontendWkSpace/sonar-project.properties" src="sonar-project.properties"/>
   </project>   
   <project remote="aiolibeclipseproject" revision="4_0" name="aiolibeclipseproject" path="PhoenixFirePanelApps/PhoenixPrelim/PIM/FirePanel/BackendWkSpaceA9/aioLibPro">
