@@ -3,16 +3,16 @@
 
   <default sync-j="4" revision="master"/>
 
-  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="backend"/>
-  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="logicengine"/>
-  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="common"/>
-  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="passwordengine"/>
-  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="flexera"/>
-  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="flexerahal"/>
-  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="utility"/>
-  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="phoenixapp"/>
-  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="aiolibeclipseproject"/>
-  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/phoenix" name="memorytestfirmware"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/imx8phx" name="backend"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/imx8phx" name="logicengine"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/imx8phx" name="common"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/imx8phx" name="passwordengine"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/imx8phx" name="flexera"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/imx8phx" name="flexerahal"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/imx8phx" name="utility"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/imx8phx" name="phoenixapp"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/imx8phx" name="aiolibeclipseproject"/>
+  <remote fetch="ssh://git@bitbucket.honeywell.com:7999/imx8phx" name="memorytestfirmware"/>
   <remote fetch="ssh://git@bitbucket.honeywell.com:7999/glss/" name="fb_aio"/>
  
  
